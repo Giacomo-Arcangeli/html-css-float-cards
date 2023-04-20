@@ -5,3 +5,67 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+.container{
+    max-width: 1080px;
+    margin: 0 auto;
+    font-family: 'Fredoka', sans-serif;
+    font-size: 20px;
+    text-align: center;
+}
+
+ /* HEADER */
+
+h1{
+    
+    font-size: 50px;
+    color: rgb(233, 54, 149);
+    margin: 30px;
+}
+
+p{
+    margin-bottom: 30px;
+}
+
+/* SEZIONE CARD */
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.card{
+    color: white;
+    float: left;
+    text-align: center;
+    background-color: black;
+    width: calc(100% / 3 - 20px);
+    height: 120px;
+    margin: 10px;
+}
+
+img{
+    height: 120px;
+    float: left;
+}
+
+.name{
+    text-align: left;
+    margin-top: 20px;
+    margin-left: 130px;
+}
+
+.work{
+    text-align: left;
+    margin-left: 130px;
+    margin-top: 3px;
+    font-size: 17px;
+}
+
+.email{
+    margin-top:3px;
+    color: deepskyblue;
+    text-decoration: none;
+    display: block
+}
